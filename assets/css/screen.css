@@ -593,8 +593,17 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
         padding-left: 5vw;
     }
 
+
     .site-nav-right {
         display: none;
+    }
+    .site-nav-right {
+        margin-left: 0;
+        padding-right: 4vw;
+    }
+    .signin-button,
+    .signout-button {
+        margin-left: 20px;
     }
 }
 
